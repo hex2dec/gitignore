@@ -1,10 +1,27 @@
 # ------------------------------------------------------------------------------
+# Common
+# ------------------------------------------------------------------------------
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Visual Studio Code
+# .vscode/
+
+# Zed Editor
+# .zed/
+
+# JetBrains IDEs (WebStorm / GoLand / IntelliJ IDEA / PyCharm / RustRover)
+# .idea/
+
+# ------------------------------------------------------------------------------
 # Go
 # ------------------------------------------------------------------------------
 
-# If you prefer the allow list template instead of the deny list, see community template:
-# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
-#
 # Binaries for programs and plugins
 *.exe
 *.exe~
@@ -30,7 +47,3 @@ go.work.sum
 
 # env file
 .env
-
-# Editor/IDE
-# .idea/
-# .vscode/
