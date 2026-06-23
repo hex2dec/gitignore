@@ -1,4 +1,6 @@
+# ------------------------------------------------------------------------------
 # Java
+# ------------------------------------------------------------------------------
 
 # Compiled class file
 *.class
@@ -25,7 +27,11 @@
 hs_err_pid*
 replay_pid*
 
+# ------------------------------------------------------------------------------
 # Maven
+# ------------------------------------------------------------------------------
+
+# Build output
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -34,12 +40,12 @@ pom.xml.next
 release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
+
+# Wrapper
 .mvn/timing.properties
 # https://maven.apache.org/tools/wrapper/#Usage_with_or_without_Binary_JAR
 .mvn/wrapper/maven-wrapper.jar
 
-# Eclipse m2e generated files
-# Eclipse Core
+# Eclipse m2e
 .project
-# JDT-specific (Eclipse Java Development Tools)
 .classpath
