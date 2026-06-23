@@ -2,6 +2,8 @@
 
 This repository contains a small set of commonly used `.gitignore` templates for Node, Python, Go, Rust, and Bun.
 
+Licensed under `CC0-1.0`. See [`LICENSE`](./LICENSE).
+
 ## Templates
 
 - `Node.gitignore`
