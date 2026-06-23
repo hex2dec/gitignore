@@ -1,14 +1,15 @@
 # gitignore
 
-This repository contains a small set of commonly used `.gitignore` templates for Node, Python, Go, Rust, and Bun.
+This repository contains a small set of commonly used `.gitignore` templates for Bun, Go, Java, Node, Python, and Rust.
 
 ## Templates
 
+- `bun.gitignore`
+- `Go.gitignore`
+- `Java.gitignore`
 - `Node.gitignore`
 - `Python.gitignore`
-- `Go.gitignore`
 - `Rust.gitignore`
-- `bun.gitignore`
 
 ## Acknowledgments
 
