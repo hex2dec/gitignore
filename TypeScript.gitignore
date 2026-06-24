@@ -26,6 +26,7 @@ Desktop.ini
 logs
 *.log
 npm-debug.log*
+pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
@@ -102,9 +103,10 @@ typings/
 .yarn-integrity
 
 # dotenv environment variable files
-.env
-.env.*
-!.env.example
+# .env
+# .env.*
+# !.env.example
+*.local
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
