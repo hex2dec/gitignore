@@ -33,9 +33,14 @@ Desktop.ini
 !.codebuddy/commands/
 !.codebuddy/agents/
 !.codebuddy/skills/
+.workbuddy/*
+!.workbuddy/settings.json
+!.workbuddy/commands/
+!.workbuddy/agents/
+!.workbuddy/skills/
 
-# Personal memory overrides (e.g. CLAUDE.local.md, CODEBUDDY.local.md);
-# the shared CLAUDE.md / CODEBUDDY.md stay tracked
+# Personal memory overrides (e.g. CLAUDE.local.md, CODEBUDDY.local.md,
+# WORKBUDDY.local.md); the shared CLAUDE.md / CODEBUDDY.md / WORKBUDDY.md stay tracked
 *.local.md
 
 # ------------------------------------------------------------------------------
